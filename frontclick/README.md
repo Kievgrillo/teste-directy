@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# Nome do Projeto 
+ou
+<h1 align="center">Teste Directy</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
+<p align="center">O site deverá ser composto por pelo menos 2 páginas e deverá haver meios de navegação entre ambas.
+	A página principal precisa conter um botão que medirá o tempo entre 2 cliques no mesmo. Assim que o segundo clique for acionado e o tempo entre o primeiro e o segundo for definido, esse resultado precisa ser enviado para o back-end e salvo pelo mesmo em um arquivo chamado registros.json para que o usuário esteja livre para fechar a página e tentar clicar com um tempo mais rápido em outro dia. Deverá também existir um botão para navegar para a segunda página.
+	A segunda página precisa conter uma lista com todos os registros já feitos (que foram salvos pela página principal ao findar do segundo clique no botão). Nessa lista deverá ser mostrado o tempo que foi marcado em cada registro, assim como a data e hora desse mesmo registro  </p>
 
-## Available Scripts
 
-In the project directory, you can run:
+    <h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [x] O usuário click e aparece a diferença do tempo do click
+- [ ] lista para salvar os clicks
